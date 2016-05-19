@@ -5,12 +5,7 @@ int main()
 
 {
 	float x, y;
-    printf("x=");
-	scanf("%f" ,&x);
-	y = x * x;
-	printf ("y=%f", y);
-	
-    printf("\nx=");
+	printf("\nx=");
 	scanf("%f" ,&x);
 	y = x * x;
 	printf ("y=%f", y);
