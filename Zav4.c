@@ -1,15 +1,16 @@
-#include <stdlib.h>
 #include <stdio.h>
-
+#include <stdlib.h>
 int main ()
-
 {
-	int a;
-	printf("a=");
-	scanf("%d", &a);
-	printf("\n%3.2d\n", a);
-	printf("\n%e\n", a);
-	printf("\n%3.7d\n", a);
-	system("pause");
-	return 0;
+    float nomer;
+    
+    printf("nomer = ");
+    scanf("%f", &nomer);
+    
+    printf("\n%3.2f\n", nomer);
+    printf("\nExponential style: %e", nomer);
+    printf("\n%3.7f\n", nomer);
+    
+    system("pause");
+    return 0;
 }
