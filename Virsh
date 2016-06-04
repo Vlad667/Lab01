@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("It's raining on the houses. And it's raining on the trees.It's raining on my shoulders.And it's raining on my knees.");
+    
+    system("pause");
+    return 0;
+}
