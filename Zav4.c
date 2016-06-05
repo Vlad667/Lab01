@@ -2,14 +2,14 @@
 #include <stdlib.h>
 int main ()
 {
-    float nomer;
+    float number;
     
-    printf("nomer = ");
-    scanf("%f", &nomer);
+    printf("number = ");
+    scanf("%f", &number);
     
-    printf("\n%3.2f\n", nomer);
-    printf("\nExponential style: %e", nomer);
-    printf("\n%3.7f\n", nomer);
+    printf("\n%3.2f\n", number);
+    printf("\nExponential style = %e", number);
+    printf("\n%3.7f\n", number);
     
     system("pause");
     return 0;
