@@ -3,7 +3,7 @@
 
 int main()
 {
-    printf("It's raining on the houses,\n\And it's raining on the trees,\nIt's raining on my shoulders,\n\And it's raining on my knees.");
+    printf("It's raining on the houses,\nAnd it's raining on the trees,\nIt's raining on my shoulders,\nAnd it's raining on my knees.");
     
     system("pause");
     return 0;
