@@ -1,19 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 int main()
-
 {
-	float x, y;
-    printf("x=");
-	scanf("%f" ,&x);
-	y = x * x;
-	printf ("y=%f", y);
+    int nomer;
+    
+    printf("Vvedite nomer = ");
+    scanf("%d" ,&nomer);
+    
+    printf ("\n\tExponential style = %e", nomer);
+    printf ("\n\tEight style = %o", nomer);
+    printf ("\n\tSixteen style = %x", nomer);
 	
-    printf("\nx=");
-	scanf("%f" ,&x);
-	y = x * x;
-	printf ("y=%f", y);
-system("pause");
+	system("pause");
     return 0;
 }
